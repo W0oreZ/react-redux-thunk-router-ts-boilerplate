@@ -1,5 +1,6 @@
 import { ThunkAction, ThunkDispatch } from "redux-thunk";
 import { fetchItems } from "../../api/dummy.api";
+
 import {
   DummyItem,
   DummyActionTypes,
@@ -8,6 +9,7 @@ import {
   FetchDataLoadingAction,
   FetchDataErrorAction,
 } from "./dummy.types";
+
 
 export function fetchDataSuccess(items: DummyItem[]): FetchDataSuccessAction {
   return {

@@ -2,8 +2,8 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
 import { RootReducer } from './reducers';
-import { DummyState } from '../containers/dummy/dummy.types';
-import { initialDummyState } from '../containers/dummy/dummy.reducer';
+import { DummyState } from '../APP/dummy/dummy.types';
+import { initialDummyState } from '../APP/dummy/dummy.reducer';
 
 export interface AppState {
   dummy: DummyState

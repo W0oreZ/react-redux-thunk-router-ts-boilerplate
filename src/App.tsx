@@ -1,14 +1,10 @@
 import React from 'react';
-import Dummy from './containers/dummy/Dummy';
+import AppRouter from './routes/AppRouter';
 
 function App() {
   return (
     <>
-      <h1>React redux thunk typesript boilerplate</h1>
-
-      <p>items list :</p>
-
-      <Dummy />      
+      <AppRouter />   
     </>
   );
 }

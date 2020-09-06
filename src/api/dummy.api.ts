@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { DummyItem } from '../containers/dummy/dummy.types';
+import { DummyItem } from '../APP/dummy/dummy.types';
 
 
 const api_url = "http://5826ed963900d612000138bd.mockapi.io";
